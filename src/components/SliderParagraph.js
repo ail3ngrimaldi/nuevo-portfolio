@@ -55,7 +55,7 @@ function SliderParagraph() {
             <input type="radio" name="radio-btn" id="img-2" />
                 <li className="slide-container">
                     <div className="slide">
-                        <SvgAboutDraw />
+                        <SvgAboutDraw/>
                         On the pandemics times, I was studying law but knowing that I needed a break from that. I started a 'free' intensive course to see if I was into programming. I had recently knew some software developers and I really needed to know how all that symbols could become websites.
                     </div>
                     <div className="slider-nav"></div>
