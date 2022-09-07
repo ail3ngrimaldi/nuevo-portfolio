@@ -1,0 +1,24 @@
+.social-container {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    z-index: 99;
+    width: 354.16px;
+    height: 110px;
+    background: rgba(169, 94, 180, 0.24);
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

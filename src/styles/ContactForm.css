@@ -1,0 +1,31 @@
+.contact-container {
+  color: var(--light-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 458px;
+  height: 498px;
+}
+
+.contact-input {
+  border: none;
+  border-bottom: 1px solid var(--brand-color);
+  height: 40px;
+  width: 200px;
+  background: transparent;
+  margin-bottom: 1rem;
+}
+
+.contact-input:focus {
+  outline: none;
+  border-bottom: 2px solid var(--brand-color);
+}
+
+button {
+  width: 206px;
+  height: 56px;
+  border: none;
+  font-size: 1.1rem;
+  border-radius: 1rem;
+}

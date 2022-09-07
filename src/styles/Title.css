@@ -1,0 +1,23 @@
+.title {
+    font-size: large;
+    font-size: clamp(1.80rem, 2.5vw, 4rem);
+    font-family: var(--ff-titles);
+    font-weight: 400;
+    white-space: nowrap;
+    color: var(--brand-color);
+}
+
+@media screen and (min-width: 20rem) and (max-width: 48rem){
+    .title {
+        left: 50px;
+    }
+}
+
+.underline-title {
+    background-color: #C7A4E3;
+    height: 30px;
+    opacity: 0.5;
+    position: relative;
+    top: -20px;
+    z-index: -1;
+}

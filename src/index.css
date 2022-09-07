@@ -1,13 +1,101 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  /*typographies*/
+  --ff-titles: 'Abril fatface';
+  --ff-primary: 'Quicksand', sans-serif;
+  --ff-secondary: 'Exo', sans-serif;
+  /*colors*/ 
+  --brand-color: #C084FC; /*color I have now #BA68C8 los primeros cuatro son de la pagina que te arma las paletas, el resto los tengo por la pagina*/
+  --dark-color: #111827;
+  --mid-color: #BDA9D4;
+  --light-color: #FAF5FF;
+  --brand-dark-color: #9d3bff;
+  /*EN LO POSIBLE NO USAR LOS DE ABAJO Y REEMPLAZAR CON LOS DE ARRIBA*/
+  --current-inputcolor: #BA68C8;
+  --button-color: #97D9E1;
+  --button-shadow: #4F4F4F;
+  --button-send-contactform: #9334BF;
+  --gradient-first-color-bg: #d9afd9;
+  --gradient-second-color-bg: #97D9E1 ;
+  --home-container-first-color: #97dae1bb;
+  --home-container-second-color: #d9afd9cb;
+  --shadow-container-home: rgb(190, 190, 190);
+  --navbar-color: #D6C0E8;
+  --navbar-shadow-color: #00000040;
+  --bg-hover-color: #ccb2e0;
+  --some-bg-color: #9b4ec7;
+  --some-other-bg-color: #bfa0d1;
+  --bg-color-services: rgba(147, 6, 244, 0.56);
+  --bg-color-services-container: rgba(240, 248, 255, 0.658);
+  --underline-titles: #C7A4E3;
+
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after  {
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* Remove margin, padding*/
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Remove list styles */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: var(--dark-color);
+  /*dejo esta prop a los efectos de saber donde termina y empieza cada seccion*/
+  /* background-image: linear-gradient(315deg, #d9afd9 0%, #ffffff 50%, #97D9E1 100%); */
+}
+
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: var(--ff-primary);
+}
+
+a:not([className]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* no se que hace, si termino todo y esta todo bien, sacar img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+} */
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+}
+
+*,
+*::before,
+*::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
 }
