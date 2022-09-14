@@ -1,7 +1,5 @@
 import React from 'react';
 import '../styles/SliderParagraph.css';
-import SvgAboutDraw from './Svgs/SvgAboutDraw';
-import SvgAbout2 from './Svgs/SvgAbout2';
 
 // var longData = [
 //     {
@@ -44,7 +42,6 @@ import SvgAbout2 from './Svgs/SvgAbout2';
 function SliderParagraph() {
     return(
         <ul className="slides">
-            <div className='columns'>
             <input type="radio" name="radio-btn" id="img-1" checked readOnly/>
                 <li className="slide-container">
                     <div className="slide">
@@ -55,7 +52,6 @@ function SliderParagraph() {
             <input type="radio" name="radio-btn" id="img-2" />
                 <li className="slide-container">
                     <div className="slide">
-                        <SvgAboutDraw/>
                         On the pandemics times, I was studying law but knowing that I needed a break from that. I started a 'free' intensive course to see if I was into programming. I had recently knew some software developers and I really needed to know how all that symbols could become websites.
                     </div>
                     <div className="slider-nav"></div>
@@ -63,12 +59,10 @@ function SliderParagraph() {
             <input type="radio" name="radio-btn" id="img-3" />
                 <li className="slide-container">
                     <div className="slide"> 
-                        <SvgAbout2/>
                         I started the course, I was really, really excited, and working both on groups or by myself, I got an exorbitant amount of knowledge that I've been using since. Meanwhile I finished the Law career (because I love that too), and besides who says I can't do both?
                     </div>
                     <div className="slider-nav"></div>
                 </li>
-                </div>
                 <li className="slider-nav-dots">
                     <label htmlFor="img-1" className="slider-nav-dot" id="img-dot-1"></label>
                     <label htmlFor="img-2" className="slider-nav-dot" id="img-dot-2"></label>

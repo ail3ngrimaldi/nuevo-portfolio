@@ -1,5 +1,13 @@
 /*ABOUT SECTION*/
 
+.svg-about-background {
+    position: absolute;
+    /* top: 13rem; */
+    opacity: 0.2;
+    z-index: -3;
+    
+}
+
 .svg-about-draw-vp {
     position: absolute;
     top: 300px;
