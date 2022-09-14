@@ -6,7 +6,6 @@
   margin: 0 auto;
   position: relative;
   color: var(--light-color);
-  /* border: 1px solid rgb(255, 245, 245); */
 }
 
 .slides * {
@@ -16,7 +15,6 @@
   -khtml-user-select: none;
   -webkit-user-select: none;
   -webkit-touch-callout: none;
-  /* border: 1px solid red; */
 }
 
 .slides input { display: none; }
@@ -26,7 +24,6 @@
 .slide {
   opacity: 0;
   height: 320px;
-  /* width: 500px; */
   position: absolute;
   text-align: justify;
   display: grid;
@@ -72,8 +69,9 @@ cursor: pointer;
 background-color: var(--brand-dark-color);
 }
 
+
 input#img-1:checked ~ .slider-nav-dots label#img-dot-1,
 input#img-2:checked ~ .slider-nav-dots label#img-dot-2,
 input#img-3:checked ~ .slider-nav-dots label#img-dot-3 {
-background: var(--brand-dark-color);
+  background-color: var(--brand-dark-color);
 }

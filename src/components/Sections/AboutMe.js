@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../styles/AboutMe.css';
 import SliderParagraph from '../SliderParagraph';
+import SvgAboutBackground from '../Svgs/SvgAboutBackground';
 
 function AboutMe() {
 
@@ -9,6 +10,7 @@ function AboutMe() {
             <h1 className='title-aboutme'>
                 From lawyer to programmer
             </h1>
+            <SvgAboutBackground/>
             <SliderParagraph/>
         </div>
     );
