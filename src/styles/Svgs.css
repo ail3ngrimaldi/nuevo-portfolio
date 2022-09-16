@@ -2,42 +2,11 @@
 
 .svg-about-background {
     position: absolute;
-    /* top: 13rem; */
+    top: 8rem; 
     opacity: 0.2;
-    z-index: -3;
-    
+    z-index: -1;
+    margin-right: 1.20rem;
 }
-
-.svg-about-draw-vp {
-    position: absolute;
-    top: 300px;
-    margin-left: 2rem;
-}
-
-.svg2 {
-    position: absolute;
-    top: 250px;
-    margin-left: 25rem;
-}
-
-/* PROJECTS SECTION */
-.svg-projects {
-    position: relative;
-    top: 450px;
-    width: 100vw;
-    z-index: -3;
-    left: 0;
-    bottom: 0;
-}
-
-#try {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
-
 
 /*CONTACT SECTION*/
 .svg-contact-vp {
