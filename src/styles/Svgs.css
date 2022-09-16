@@ -8,26 +8,6 @@
     margin-right: 1.20rem;
 }
 
-
-/* PROJECTS SECTION */
-.svg-projects {
-    position: relative;
-    top: 450px;
-    width: 100vw;
-    z-index: -3;
-    left: 0;
-    bottom: 0;
-}
-
-#try {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-}
-
-
 /*CONTACT SECTION*/
 .svg-contact-vp {
     position: relative;
