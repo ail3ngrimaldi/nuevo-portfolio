@@ -1,25 +1,39 @@
-// import Title from '../Title';
-// import SvgProjects from '../Svgs/SvgProjects';
 import React from 'react';
 import '../../styles/Projects.css';
 import ProjectCard from '../ProjectCard';
+import tachito from '../../assets/tachito.png';
+import pomodoro from '../../assets/pomodoro.png';
+import notavailable from '../../assets/notav.png';
+import portfolio from '../../assets/portfolio.png';
 
 function Projects() {
     return (
-        <div id='projects' className='main-container-projects' >
-             {/* <SvgProjects/> 
-            <section className='title-projects'>
-                <Title label="What I've done"/>
-            </section>  */}
+        <div id='projects' className='container__projects' >
             <h1 className='title__projects'>
                 Projects
             </h1>
             <div className='cards__container'>
-                <ProjectCard img={"//unsplash.it/706/706"}
-                            title="Primer proyecto"
-                            description="Este es el primer proyecto que realice utilizando las tecnologías: React + Material UI"
+                <ProjectCard assets={tachito}
+                             title="Tachito compost"
+                             description="Proyecto con el objetivo de generar un impacto positivo en el medio ambiente utilizando React Native."
                 />
-                <ProjectCard/>
+                <ProjectCard assets={pomodoro}
+                             title="Pomodoro timer"
+                             description="Diseño realizado con Figma, luego pasado a código utilizando React Native y Javascript."/>
+                <ProjectCard assets={notavailable}
+                             title="Jardin de infantes"
+                             description="Landing page para un jardín de infantes, proyecto freelance con contacto directo con la cliente."
+                />
+                <ProjectCard assets={notavailable}
+                             title="Protectora Sarmiento"
+                             description="Web app para protectora de animales, proyecto final del curso Soy Henry."
+                             link="https://github.com/ail3ngrimaldi/protectora-animales"
+                />
+                <ProjectCard assets={portfolio}
+                             title="My first portfolio"
+                             description="El primer portfolio que cree para mi misma."
+                             link="https://ailengrimaldi.com"
+                />
             </div>
         </div>
     );

@@ -1,25 +1,28 @@
-.main-container-projects {
-
+.container__projects {
     position: relative;
     width: 100vw;    
-    display: flex;
-    justify-content: center;
-   
+    top: 100px;
 }
 
 .title__projects {
-    position: absolute;
     font-size: large;
     font-size: clamp(1.80rem, 2.5vw, 4rem);
     font-family: var(--ff-titles);
     font-weight: 400;
     white-space: nowrap;
     color: var(--light-color);
+    position: relative;
+    top:110px;
+    display: grid;
+    text-align: center
 }
 
 .cards__container {
+    position: relative;
+    top: 150px;
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(12rem, 16rem));
-    gap:2rem;
+    gap: 2rem;
     justify-content: center;
 }
+
