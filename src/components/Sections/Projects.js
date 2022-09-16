@@ -13,23 +13,23 @@ function Projects() {
                 Projects
             </h1>
             <div className='cards__container'>
-                <ProjectCard assets={tachito}
+                <ProjectCard img={tachito}
                              title="Tachito compost"
                              description="Proyecto con el objetivo de generar un impacto positivo en el medio ambiente utilizando React Native."
                 />
-                <ProjectCard assets={pomodoro}
+                <ProjectCard img={pomodoro}
                              title="Pomodoro timer"
                              description="Diseño realizado con Figma, luego pasado a código utilizando React Native y Javascript."/>
-                <ProjectCard assets={notavailable}
+                <ProjectCard img={notavailable}
                              title="Jardin de infantes"
                              description="Landing page para un jardín de infantes, proyecto freelance con contacto directo con la cliente."
                 />
-                <ProjectCard assets={notavailable}
+                <ProjectCard img={notavailable}
                              title="Protectora Sarmiento"
                              description="Web app para protectora de animales, proyecto final del curso Soy Henry."
                              link="https://github.com/ail3ngrimaldi/protectora-animales"
                 />
-                <ProjectCard assets={portfolio}
+                <ProjectCard img={portfolio}
                              title="My first portfolio"
                              description="El primer portfolio que cree para mi misma."
                              link="https://ailengrimaldi.com"
