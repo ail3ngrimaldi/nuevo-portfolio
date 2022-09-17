@@ -1,11 +1,13 @@
 import React from 'react';
 import '../../styles/Services.css';
+import SvgArrow from '../Svgs/SvgArrow';
 
 function Services() {
     return (
         <div id='services' className='container__services'>
             <div className='bgimage__services'>
             <h1 className='title__services'>Get your landing page</h1>
+             <SvgArrow/>
                 <ul className='ul__services'>
                     <li className='li__services'><span>From scratch. </span> 
                     So I can do your landing page exactly as you want.</li>
