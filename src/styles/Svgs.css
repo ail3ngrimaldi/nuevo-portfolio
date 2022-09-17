@@ -22,7 +22,6 @@
 .svg__services--arrow {
     width: clamp(45%, 15vw, 75%);
     height: clamp(45%, 15vw, 75%);
-    border: 1px solid rgba(255, 0, 0, 0);
     position: absolute;
     top: 1em;
     right: 0;
