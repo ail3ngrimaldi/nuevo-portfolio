@@ -1,23 +1,19 @@
 import React from 'react';
-import Title from '../Title';
 import '../../styles/Services.css';
+import SvgArrow from '../Svgs/SvgArrow';
 
 function Services() {
     return (
-        <div id='services' className='main-container-services'>
-            <div className='bg-image'>
-                <section className='title-services'>
-                    <Title label='Get your landing page'/>
-                </section>
-                <ul className='services-ul'>
-                    <li className='services-li'><span>From scratch.</span>
-                    <br/> 
-                    So I can do your landing page exactly as you want</li>
-                    <li className='services-li'><span>Active listening.</span> 
-                    <br/>
-                    In our meetings, you will tell me what you want and I will make suggestions. My first suggestion is that we listen to each other.</li>
-                    <li className='services-li'><span>With creativity.</span>
-                    <br/>
+        <div id='services' className='container__services'>
+            <div className='bgimage__services'>
+            <h1 className='title__services'>Get your landing page</h1>
+             <SvgArrow/>
+                <ul className='ul__services'>
+                    <li className='li__services'><span>From scratch. </span> 
+                    So I can do your landing page exactly as you want.</li>
+                    <li className='li__services'><span>Active listening. </span> 
+                    Because to me it's the main thing in every client-developer relation.</li>
+                    <li className='li__services'><span>With creativity. </span>
                     I believe we've had enough of MUI system, don't you?</li>
                 </ul>
             </div>
