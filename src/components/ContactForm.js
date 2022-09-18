@@ -11,10 +11,10 @@ export default function ContactForm () {
             <label htmlFor='email'>E-mail:</label>
             <input type='email' placeholder='heregoes@youremail.com' className='contact-input'></input>
             <label>Subject:</label>
-            <input placeholder='Open position' className='contact-input'></input>
+            <input type='text' placeholder='Open position' className='contact-input'></input>
             <label>Content:</label>
-            <input placeholder='Here goes your email body' className='contact-input'></input>
-            <button>SEND</button>
+            <textarea placeholder='Here goes your email body' cols='75' rows='5' className='contact-input email__content'></textarea>
+            <button className='button__contactform' type='onSubmit'>SEND</button>
         </div>
     </div>
     );

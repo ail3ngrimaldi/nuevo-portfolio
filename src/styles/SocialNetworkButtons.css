@@ -3,11 +3,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    z-index: 99;
+    padding: 1rem;
     width: 354.16px;
     height: 110px;
-    background: rgba(169, 94, 180, 0.24);
+    background: var(--light-color);
+    margin-bottom: 2rem;
 }
 
 .social-links {

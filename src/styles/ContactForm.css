@@ -12,9 +12,10 @@
   border: none;
   border-bottom: 1px solid var(--brand-color);
   height: 40px;
-  width: 200px;
+  width: 50%;
   background: transparent;
   margin-bottom: 1rem;
+  color: var(--light-color);
 }
 
 .contact-input:focus {
@@ -22,10 +23,14 @@
   border-bottom: 2px solid var(--brand-color);
 }
 
-button {
+.button__contactform {
   width: 206px;
   height: 56px;
   border: none;
   font-size: 1.1rem;
   border-radius: 1rem;
+}
+
+.email__content {
+  height: 5rem;
 }

@@ -1,59 +1,27 @@
-.main-container-contact {
+.container__contact--primary {
     position: relative;
-    top: 800px;
-}
-
-.title-contact {
-    position: absolute;
-    top: -100px;
-}
-
-.grid-contact-section {
-    margin-top: 5rem;
-    margin-left: 10rem;
-    margin-bottom: -30rem;
-    display: grid;
-    gap: 3rem;
-    grid-template-columns: 20rem 45rem; 
-    grid-template-rows: repeat(2, 200px);
-}
-
-.grid-contact-section > * {
+    top: 300px;
     display: flex;
+    flex-direction: column;
+}
+
+.title__contact {
+    font-size: large;
+    font-size: clamp(1.80rem, 2.5vw, 4rem);
+    font-family: var(--ff-titles);
+    font-weight: 400;
+    white-space: nowrap;
+    color: var(--light-color);
+    position: relative;
+    top: 5rem;
+    margin-left: 3em;
+}
+
+.container__contact--secondary {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 10rem;
     align-items: center;
     justify-content: center;
-
-}
-
- .paragraph-grid-1 {
-    margin-bottom: -5rem;
-   grid-column: 1 / 1;
-   grid-row: 1 / 1;
-}
-
-.socialbuttons-grid-2 {
-    margin-top: -8rem;
-    grid-column: 1 / 1;
-    grid-row: 2 / 2;
-}
-
-.form-grid-3 {
-    grid-column: 2 / 2;
-    grid-row: 1 / 2;
-    margin-top: 12rem;
-}  
-
-
-/* DESPUES SETEAR BIEN MEDIA QUERY PARA QUE CUANDO ESTA MOBILE SE MUESTRE TODO EN VERTICAL*/
-@media all and (max-width: 48rem) {
-    .form-grid-3 .socialbuttons-grid-2 .paragraph-grid-1 {
-        grid-column: 1 / 1;
-    }
-    .grid-contact-section {
-    grid-template-columns: auto;
-    grid-template-rows: repeat(3, 200px);
-}
-.form-grid-3 {
-    grid-row: 3 / 3;
-}  
 }

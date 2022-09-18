@@ -39,7 +39,7 @@
 }
 
 .circle {
-  background-image: url('../img/circle.png');
+  background-image: url('../assets/circle.png');
   background-color: var(--light-color);
   border-radius: 50%;
   cursor: pointer;
