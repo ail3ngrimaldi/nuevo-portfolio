@@ -8,6 +8,13 @@
   height: 100%;
 }
 
+.contactform__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .input__contactform {
   border: none;
   border-bottom: 1px solid var(--brand-color);
@@ -33,4 +40,8 @@
 
 .email__content {
   height: 7rem;
+}
+
+.input__disabled {
+  display: none;
 }
