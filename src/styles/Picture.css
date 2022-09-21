@@ -42,7 +42,6 @@
   background-image: url('../assets/circle.png');
   background-color: var(--light-color);
   border-radius: 50%;
-  cursor: pointer;
   height: 380px;
   left: 10px;
   pointer-events: none;

@@ -43,7 +43,6 @@
 .pdf-link:focus {
     background-color: #ccb2e0;
     color: var(--dark-color);
-    cursor: pointer;
 }
 
 .active {

@@ -9,15 +9,23 @@ import ContactForm from '../ContactForm';
 function Contact() {
 
     return (
-        <div id='contact' className='container__contact--primary'>
-             <h1 className='title__contact'>
-                Contact Me
-             </h1>
-             <section className='container__contact--secondary'>
-                  <SocialNetworkButtons/>
+        <div id='contact' className='container__contact'>
+             <div className='screen__contact'>
+               <div className='screen__body__contact'>
+               <div className='screen__item__contact left'>
+                    <h1 className='title__contact'>
+                         Contact Me
+                    </h1>
+                    <SocialNetworkButtons/>
+               </div>
+               <div className='screen__item__contact'>
                   <ContactForm/>
-                  <SvgWaveContact/>
-             </section>
+               </div>
+               </div>
+                    <div className='svg__position'>
+                         <SvgWaveContact/>
+                    </div>
+             </div>
          </div>
     );
   }
