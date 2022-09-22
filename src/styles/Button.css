@@ -17,6 +17,6 @@
 
 .standard__button:hover {
     background: var(--light-color);
-    color: #010606;
+    color: var(--dark-color);
     transform: scale(1.05);
 }

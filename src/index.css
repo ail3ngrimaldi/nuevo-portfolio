@@ -15,15 +15,8 @@ code {
   --light-color: #FAF5FF;
   --brand-dark-color: #9d3bff;
   /*EN LO POSIBLE NO USAR LOS DE ABAJO Y REEMPLAZAR CON LOS DE ARRIBA*/
-  --current-inputcolor: #BA68C8;
-  --button-color: #97D9E1;
-  --button-shadow: #4F4F4F;
-  --button-send-contactform: #9334BF;
   --gradient-first-color-bg: #d9afd9;
   --gradient-second-color-bg: #97D9E1 ;
-  --home-container-first-color: #97dae1bb;
-  --home-container-second-color: #d9afd9cb;
-  --shadow-container-home: rgb(190, 190, 190);
   --navbar-color: #D6C0E8;
   --navbar-shadow-color: #00000040;
   --bg-hover-color: #ccb2e0;
