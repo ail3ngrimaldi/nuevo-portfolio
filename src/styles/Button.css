@@ -1,0 +1,22 @@
+.standard__button {
+    height: 43px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: bolder;
+    transition: all 0.2s ease-in-out;
+    background: var(--dark-color);
+    color: var(--light-color);
+    position: relative;
+    z-index: 999;
+}
+    @media screen and (min-width: 48rem) {
+        .standard__button {
+            right: 1rem;
+        }
+    }
+
+.standard__button:hover {
+    background: var(--light-color);
+    color: #010606;
+    transform: scale(1.05);
+}

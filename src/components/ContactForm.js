@@ -1,6 +1,7 @@
 import '../styles/ContactForm.css';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
+import Button from '../components/navbar/Button';
 // import 'dotenv/config';
 
 import { init } from '@emailjs/browser';
@@ -53,7 +54,7 @@ export default function ContactForm () {
                     <input type='text' placeholder='Open position' className='input__contactform' name='subject' id='subject'/>
                 <label htmlFor='message'>Content:</label>
                     <textarea type='text' placeholder='Here goes your email body' cols='75' rows='5' className='input__contactform email__content' name='message' id='message'/>
-                <button className='button__contactform' type='onSubmit' onSubmit={sendEmail}>SEND</button>
+                <Button type='onSubmit' onSubmit={sendEmail} label='SEND'/>
             </form>
         </div>
     </div>

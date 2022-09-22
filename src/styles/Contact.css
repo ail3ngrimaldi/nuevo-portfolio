@@ -4,6 +4,7 @@
     position: relative;
     z-index: 0;
     top: 250px;
+    color: var(--light-color);
 }
 
 .screen__contact {
@@ -23,7 +24,6 @@
     font-family: var(--ff-titles);
     font-weight: 400;
     white-space: nowrap;
-    color: var(--light-color);
     display: flex;
     flex-direction: column;
     position: relative;
@@ -39,7 +39,12 @@
     flex-direction: column;
     gap: 4rem;
     align-content: center;
-    margin-left: clamp(1rem, 2vw, 5rem);
+    margin-left: clamp(1rem, 2vw, 3rem);
+    padding: 50px 0px 50px 50px;
+}
+
+.screen__item__contact.right {
+  padding: 50px 50px 50px 0px;
 }
 
 .screen__item__contact {
@@ -70,7 +75,11 @@
       padding: 40px;
     } 
   
-    .screen__item__contact {
+    .screen__item__contact.left{
+      padding: 0;
+    }
+
+    .screen__item__contact.right{
       padding: 0;
     }
 

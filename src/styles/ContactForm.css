@@ -31,14 +31,6 @@
   border-bottom: 2px solid var(--brand-color);
 }
 
-.button__contactform {
-  width: 206px;
-  height: 56px;
-  border: none;
-  font-size: 1.1rem;
-  border-radius: 1rem;
-}
-
 .email__content {
   height: 7rem;
 }

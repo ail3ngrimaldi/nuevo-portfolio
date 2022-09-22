@@ -16,9 +16,10 @@ function Contact() {
                     <h1 className='title__contact'>
                          Contact Me
                     </h1>
+                    <p className='paragraph__contact'>Feel free to send me an e-mail, I'll be happy to see people are visiting my website.</p>
                     <SocialNetworkButtons/>
                </div>
-               <div className='screen__item__contact'>
+               <div className='screen__item__contact right'>
                   <ContactForm/>
                </div>
                </div>

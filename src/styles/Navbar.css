@@ -45,7 +45,7 @@
     color: var(--dark-color);
 }
 
-.active {
+.navbar-menu-item.active {
     background-color: #ccb2e0;
     color: var(--dark-color);
 }
