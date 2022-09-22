@@ -2,7 +2,7 @@
 import '../../styles/Navbar.css';
 
 //Components
-import ContactButton from './ContactButton';
+import Button from './Button';
 import ScrollToTop from '../ScrollToTop';
 import { Bars } from './styledcomponents';
 import cv  from '../../descargas-pdf/cveng.pdf';
@@ -32,9 +32,9 @@ const Navbar = ( {toggle} ) => {
             <Link to='services' spy={true} smooth={true} offset={50} duration={500} className='navbar-menu-item'>Services</Link>
             <li className='navbar-menu-item'><a className='pdf-link' target="_blank" rel='noreferrer' href={cv} download="" title="">CV</a></li>
         </ul>
-            <div className="navbar-button">
+            <div className='navbar-button'>
               <Link to='contact' spy={true} smooth={true} offset={50} duration={500}>
-                <ContactButton label='Contact Me'/>
+                <Button label='Contact Me'/>
               </Link>
             </div>
       </nav>

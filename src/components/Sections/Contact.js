@@ -2,7 +2,6 @@ import React from 'react';
 import '../../styles/Contact.css';
 
 //Components
-import Title from '../Title';
 import SocialNetworkButtons from '../SocialNetwork';
 import SvgWaveContact from '../Svgs/SvgWaveContact';
 import ContactForm from '../ContactForm';
@@ -10,24 +9,25 @@ import ContactForm from '../ContactForm';
 function Contact() {
 
     return (
-        <div></div>
-        // <div id='contact' className='main-container-contact'>
-        //     <section className='title-contact'>
-        //         <Title label='Contact Me'/>
-        //     </section>
-        //     <section className='grid-contact-section'>
-        //         <div className='paragraph-grid-1'>
-        //             <p>Feel free to reach me by sending me an email or finding me on your favorite social media.</p>  
-        //         </div>
-        //         <div className='socialbuttons-grid-2'>
-        //             <SocialNetworkButtons/>
-        //         </div>
-        //         <div className='form-grid-3'>
-        //                 <ContactForm/>
-        //         </div>
-        //     </section>
-        //     <SvgWaveContact/>
-        // </div>
+        <div id='contact' className='container__contact'>
+             <div className='screen__contact'>
+               <div className='screen__body__contact'>
+               <div className='screen__item__contact left'>
+                    <h1 className='title__contact'>
+                         Contact Me
+                    </h1>
+                    <p className='paragraph__contact'>Feel free to send me an e-mail, I'll be happy to see people are visiting my website.</p>
+                    <SocialNetworkButtons/>
+               </div>
+               <div className='screen__item__contact right'>
+                  <ContactForm/>
+               </div>
+               </div>
+                    <div className='svg__position'>
+                         <SvgWaveContact/>
+                    </div>
+             </div>
+         </div>
     );
   }
 
