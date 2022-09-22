@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     height: 4rem;
-    box-shadow: 0px 2px 2px 0px rgb(0, 0, 0);
+    box-shadow: 0px 1px 2px 0px rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -29,7 +29,7 @@
         }
     }
 
-.pdf-link,
+.link__pdf,
 .navbar-menu-item {
     padding: 1.20rem;
     list-style: none;
@@ -39,14 +39,14 @@
 
 .navbar-menu-item:hover,
 .navbar-menu-item:focus,
-.pdf-link:hover,
-.pdf-link:focus {
-    background-color: #ccb2e0;
+.link__pdf:hover,
+.link__pdf:focus { 
+    background-color: var(--mid-color);
     color: var(--dark-color);
 }
 
 .navbar-menu-item.active {
-    background-color: #ccb2e0;
+    background-color:var(--mid-color);
     color: var(--dark-color);
 }
 
