@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';
 
-function Home () {
+function Navigation () {
    const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => {
@@ -17,4 +17,4 @@ function Home () {
     );
 }
 
-export default Home;
+export default Navigation;
