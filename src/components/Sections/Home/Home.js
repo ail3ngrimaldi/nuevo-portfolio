@@ -1,11 +1,11 @@
 import React from 'react';
 
 //Components
-import AnimatedText from '../AnimatedText';
-import Picture from '../Picture';
+import AnimatedText from './AnimatedText';
+import Picture from './Picture';
 
 //styles
-import '../../styles/Home.css';
+import './Home.css';
 
 function Home () {
     return (

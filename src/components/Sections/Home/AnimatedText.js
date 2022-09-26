@@ -1,4 +1,4 @@
-import '../styles/AnimatedText.scss';
+import './AnimatedText.scss';
 import React from 'react';
 
 function AnimatedText() {

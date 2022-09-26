@@ -4,7 +4,7 @@ import {
     CloseIcon,
     SidebarWrapper,
     SidebarLink,
-    SidebarMenu } from './styledcomponents';
+    SidebarMenu } from './SidebarElements';
 
 const Sidebar = ( {isOpen, toggle} ) => {
     return (

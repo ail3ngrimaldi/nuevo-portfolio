@@ -5,8 +5,8 @@ import { AiOutlineClose } from 'react-icons/ai'
 
 export const SidebarContainer = styled.aside`
     position: fixed;
-    z-index: 9999;
-    width: 20em;
+    z-index: 99999;
+    width: 100%;
     height: 100%;
     background: #0d0d0d;
     display: grid;
@@ -15,7 +15,7 @@ export const SidebarContainer = styled.aside`
     left: 0;
     transition: 0.3s ease-in-out;
     opacity: ${({ isOpen}) => (isOpen ? '90%' : '0')};
-    top: ${({ isOpen }) => (isOpen ? '0' : '90%')};
+    top: ${({ isOpen }) => (isOpen ? '0' : '100%')};
     `
 
 export const CloseIcon = styled(AiOutlineClose)`

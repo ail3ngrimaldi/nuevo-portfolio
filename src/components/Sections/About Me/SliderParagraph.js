@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/SliderParagraph.css';
+import './SliderParagraph.css';
 
 function SliderParagraph() {
     return(

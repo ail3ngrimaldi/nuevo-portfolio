@@ -1,5 +1,5 @@
 import * as React from "react";
-import '../../styles/Svgs.css';
+import '../../../styles/Svgs.css';
 
 const SvgArrow = (props) => (
     <div className="svg__container">

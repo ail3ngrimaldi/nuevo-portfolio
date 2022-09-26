@@ -1,10 +1,10 @@
 //Styles
-import '../../styles/Navbar.css';
+import './Navbar.css';
 
 //Components
 import Button from './Button';
 import ScrollToTop from '../ScrollToTop';
-import { Bars } from './styledcomponents';
+import { Bars } from '../Sidebar/SidebarElements';
 import cv  from '../../descargas-pdf/cveng.pdf';
 
 //Dependencies

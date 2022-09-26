@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../styles/Services.css';
-import SvgArrow from '../Svgs/SvgArrow';
+import './Services.css';
+import SvgArrow from './SvgArrow';
 
 function Services() {
     return (

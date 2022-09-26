@@ -1,5 +1,5 @@
 import * as React from "react";
-import '../../styles/Svgs.css';
+import '../../../styles/Svgs.css';
 
 const SvgWaveContact = (props) => (
   <svg preserveaspectradio='none' className='svg-contact-vp' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220" {...props}>

@@ -1,10 +1,10 @@
 import React from 'react';
-import '../../styles/Projects.css';
-import ProjectCard from '../ProjectCard';
-import tachito from '../../assets/tachito.png';
-import pomodoro from '../../assets/pomodoro.png';
-import notavailable from '../../assets/notav.png';
-import portfolio from '../../assets/portfolio.png';
+import './Projects.css';
+import ProjectCard from './ProjectCard';
+import tachito from '../../../assets/tachito.png';
+import pomodoro from '../../../assets/pomodoro.png';
+import notavailable from '../../../assets/notav.png';
+import portfolio from '../../../assets/portfolio.png';
 
 function Projects() {
     return (
