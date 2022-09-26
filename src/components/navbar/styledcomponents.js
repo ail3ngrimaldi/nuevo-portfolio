@@ -60,15 +60,6 @@ export const SidebarMenu = styled.ul`
     text-align: center;
 `
 
-//eliminado:
-// no leia las properties
-//  mediascreen de SidebarMenu
-//  @media screen and (max-width: 480px) {
-//    grid-template-rows: repeat(6, 60px)
-//  }
-//
-//     grid-template-rows: repeat (6, 80px); de SidebarMenu
-//
 export const Bars = styled(HiMenuAlt2)`
   display: none;
   color: #fff;
