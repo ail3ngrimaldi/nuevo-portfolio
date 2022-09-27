@@ -62,7 +62,7 @@ input:checked + .slide-container .slider-nav label { display: block; }
   border-radius: 100%;
   display: inline-block;
   background-color: var(--brand-color);
-  z-index: 999;
+  z-index: 998;
 }
 
 .slider-nav-dots .slider-nav-dot:hover {

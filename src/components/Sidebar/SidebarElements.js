@@ -34,7 +34,6 @@ export const Icon = styled.div`
 
 export const SidebarWrapper = styled(Link)`
     color: #fff;
-    border: 1px solid red;
 `
 
 export const SidebarLink = styled(Link)`
@@ -49,7 +48,7 @@ export const SidebarLink = styled(Link)`
     cursor: pointer;
     
     &:hover {
-        color: #9334BF;
+        color: #C084FC;
         transition: 0.2s ease-in-out;
     }
 `
