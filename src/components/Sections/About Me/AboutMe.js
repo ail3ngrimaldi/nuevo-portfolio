@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../styles/AboutMe.css';
-import SliderParagraph from '../SliderParagraph';
-import SvgAboutBackground from '../Svgs/SvgAboutBackground';
+import './AboutMe.css';
+import SliderParagraph from './SliderParagraph';
+import SvgAboutBackground from './SvgAboutBackground';
 
 function AboutMe() {
 

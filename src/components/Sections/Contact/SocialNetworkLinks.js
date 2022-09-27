@@ -1,7 +1,7 @@
 import React from 'react'; 
-import '../styles/SocialNetworkButtons.css';
+import './SocialNetworkLinks.css';
 
-export default function SocialNetworkButtons () {
+export default function SocialNetworkLinks () {
     return (
         <div className='social-container'>
         <div className='social-links'>

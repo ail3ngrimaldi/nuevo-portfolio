@@ -1,10 +1,10 @@
 import React from 'react';
-import '../../styles/Contact.css';
+import './Contact.css';
 
 //Components
-import SocialNetworkButtons from '../SocialNetwork';
-import SvgWaveContact from '../Svgs/SvgWaveContact';
-import ContactForm from '../ContactForm';
+import SocialNetworkButtons from './SocialNetworkLinks';
+import SvgWaveContact from './SvgWaveContact';
+import ContactForm from './ContactForm';
 
 function Contact() {
 

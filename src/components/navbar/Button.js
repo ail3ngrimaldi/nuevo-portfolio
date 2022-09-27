@@ -1,4 +1,4 @@
-import '../../styles/Button.css';
+import './Button.css';
 import React from 'react';
 
 function Button(props) {

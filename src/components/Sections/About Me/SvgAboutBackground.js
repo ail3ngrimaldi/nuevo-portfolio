@@ -1,12 +1,9 @@
 import * as React from "react";
-import '../../styles/Svgs.css';
+import '../../../styles/Svgs.css';
 
 const SvgAboutBackground = (props) => (
   <svg
-  // width={1008}
-    // height={414}
     className="svg-about-background"
-    // viewBox="0 0 1200 1200"
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 115.9 1008 298.1"
