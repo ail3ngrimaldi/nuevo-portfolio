@@ -5,15 +5,15 @@ import AnimatedText from './AnimatedText';
 import Picture from './Picture';
 
 //styles
-import './Home.css';
+import './Hero.css';
 
-function Home () {
+function Hero () {
     return (
-        <div id='home' className='container-home'>
+        <div id='hero' className='container-hero'>
                     <Picture/>
                     <AnimatedText/>
         </div>
     );
 }
 
-export default Home;
+export default Hero;
