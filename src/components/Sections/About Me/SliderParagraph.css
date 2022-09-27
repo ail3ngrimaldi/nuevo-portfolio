@@ -76,3 +76,9 @@ input#img-2:checked ~ .slider-nav-dots label#img-dot-2,
 input#img-3:checked ~ .slider-nav-dots label#img-dot-3 {
   background-color: var(--brand-dark-color);
 }
+
+.slider__link {
+  text-decoration: none;
+  font-weight: 800;
+  color: white;
+}

@@ -57,12 +57,6 @@ a:not([className]) {
   text-decoration-skip-ink: auto;
 }
 
-/* no se que hace, si termino todo y esta todo bien, sacar img,
-picture,
-svg {
-  max-width: 100%;
-  display: block;
-} */
 
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {

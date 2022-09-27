@@ -32,7 +32,7 @@ export const Icon = styled.div`
     outline: none;
 `
 
-export const SidebarWrapper = styled(Link)`
+export const SidebarWrapper = styled.div`
     color: #fff;
 `
 
