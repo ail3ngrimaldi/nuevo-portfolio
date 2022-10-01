@@ -53,11 +53,6 @@ body {
   font-family: var(--ff-primary);
 }
 
-a:not([className]) {
-  text-decoration-skip-ink: auto;
-}
-
-
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
     scroll-behavior: auto;

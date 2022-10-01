@@ -12,7 +12,7 @@
     font-size: clamp(1.80rem, 2.5vw, 4rem);
     font-family: var(--ff-titles);
     font-weight: 400;
-    white-space: nowrap;
+    white-space: wrap;
     color: var(--light-color);
     top: 150px;
 }

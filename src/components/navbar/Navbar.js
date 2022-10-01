@@ -22,7 +22,7 @@ const Navbar = ( {toggle} ) => {
             <Link to='about' spy={true} smooth={true} offset={50} duration={500} className='navbar-menu-item'>About me</Link>
             <Link to='projects' spy={true} smooth={true} offset={50} duration={500} className='navbar-menu-item'>Projects</Link>
             <Link to='services' spy={true} smooth={true} offset={50} duration={500} className='navbar-menu-item'>Services</Link>
-            <a className='link__pdf' target="_blank" rel='noreferrer' href={cv} download="" title="">CV</a>
+            <a className='link--light link__pdf' target="_blank" rel='noreferrer' href={cv} download="cv-ailengrimaldi" title="">CV</a>
         </ul>
             <div className='navbar-button'>
               <Link to='contact' spy={true} smooth={true} offset={50} duration={500}>
