@@ -34,7 +34,6 @@
     padding: 1.20rem;
     list-style: none;
     color: var(--light-color);
-    text-decoration: none;
     transition: background-color 0.3s !important;
 }
 
@@ -61,4 +60,19 @@
     .navbar-button {
         margin-right: 2rem;
     }
+}
+
+   
+.link--light:visited {
+    color: var(--brand-dark-color);
+}
+    
+.link--light:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+    
+.link--light:active {   
+    color: var(--brand-dark-color);
+    font-weight: bolder;
 }
