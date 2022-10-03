@@ -1,7 +1,7 @@
 import './ContactForm.css';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
-import Button from '../../Navbar/Button';
+import Button from '../../navbar/Button';
 
 import { init } from '@emailjs/browser';
 const USER_ID = process.env.REACT_APP_USER_ID;
