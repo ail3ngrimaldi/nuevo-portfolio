@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Home from './components/index.jsx';
+import Home from '../src/components/index.jsx';
 
 function App() {
   
