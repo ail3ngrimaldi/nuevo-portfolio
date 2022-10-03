@@ -37,12 +37,10 @@ export const NavButton = styled.button`
 export const DotContainer = styled.div`
     display: flex;
     gap: 1rem;
-    justify-content: center;
-    align-content: center;
     position: absolute;
-    bottom: 50%;
+    top: 60%; 
     left: 50%;
-    transform: translate(-30%, 0%)
+    transform: translate(-50%, -50%);
 `
 
 export const Dot = styled.div`
