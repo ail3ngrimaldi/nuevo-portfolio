@@ -1,10 +1,12 @@
 import React from 'react';
 import './Projects.css';
 import ProjectCard from './ProjectCard';
-import tachito from '../../../assets/tachito.png';
-import pomodoro from '../../../assets/pomodoro.png';
-import notavailable from '../../../assets/notav.png';
-import portfolio from '../../../assets/portfolio.png';
+// import tachito from '../../../assets/tachito.png';
+// import pomodoro from '../../../assets/pomodoro.png';
+// import notavailable from '../../../assets/notav.png';
+// import portfolio from '../../../assets/portfolio.png';
+
+import { images } from './Images';
 
 function Projects() {
     return (
@@ -13,25 +15,25 @@ function Projects() {
                 Projects
             </h1>
             <div className='cards__container'>
-                <ProjectCard img={tachito}
+                <ProjectCard img={images.tachito}
                              title="Tachito compost"
-                             description="Proyecto con el objetivo de generar un impacto positivo en el medio ambiente utilizando React Native."
+                             description="Project with the aim of generating a positive impact on the environment, developed with React Native."
                 />
-                <ProjectCard img={pomodoro}
+                <ProjectCard img={images.pomodoro}
                              title="Pomodoro timer"
-                             description="Diseño realizado con Figma, luego pasado a código utilizando React Native y Javascript."/>
-                <ProjectCard img={notavailable}
+                             description="Design created with Figma."/>
+                <ProjectCard img={images.notavailable}
                              title="Jardin de infantes"
-                             description="Landing page para un jardín de infantes, proyecto freelance con contacto directo con la cliente."
+                             description="Landing page for a kindergarten, freelance project."
                 />
-                <ProjectCard img={notavailable}
+                <ProjectCard img={images.notavailable}
                              title="Protectora Sarmiento"
-                             description="Web app para protectora de animales, proyecto final del curso Soy Henry."
+                             description="Web app for an animal shelter, final project for the bootcamp 'Soy Henry'."
                              link="https://github.com/ail3ngrimaldi/protectora-animales"
                 />
-                <ProjectCard img={portfolio}
+                <ProjectCard img={images.portfolio}
                              title="My first portfolio"
-                             description="El primer portfolio que cree para mi misma."
+                             description="My first portfolio."
                              link="https://ailengrimaldi.com"
                 />
             </div>
