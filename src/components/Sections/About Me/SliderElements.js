@@ -40,7 +40,7 @@ export const DotContainer = styled.div`
     justify-content: center;
     align-content: center;
     position: absolute;
-    bottom: 50%;
+    bottom: 45%;
     left: 50%;
     transform: translate(-30%, 0%)
 `
