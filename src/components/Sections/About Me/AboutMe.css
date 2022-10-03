@@ -16,3 +16,18 @@
     color: var(--light-color);
     top: 150px;
 }
+
+.link__slider {
+    color: white;
+}
+
+.link__slider:link {
+    color: white;
+}
+
+.link__slider:hover {
+    font-weight: bold;
+}
+.link__slider:active {
+    color: var(--mid-color)
+}
