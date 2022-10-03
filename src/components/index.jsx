@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar/Navbar';
-import Sidebar from './Sidebar/Sidebar';
+import Sidebar from '../components/Sidebar/Sidebar';
 
 //Components
 import Contact from './Sections/Contact/Contact';
