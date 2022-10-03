@@ -23,11 +23,11 @@ function Projects() {
                              title="Pomodoro timer"
                              description="Design created with Figma."/>
                 <ProjectCard img={images.notavailable}
-                             title="Jardin de infantes"
+                             title="Kindergarten"
                              description="Landing page for a kindergarten, freelance project."
                 />
                 <ProjectCard img={images.notavailable}
-                             title="Protectora Sarmiento"
+                             title="Sarmiento Shelter"
                              description="Web app for an animal shelter, final project for the bootcamp 'Soy Henry'."
                              link="https://github.com/ail3ngrimaldi/protectora-animales"
                 />
