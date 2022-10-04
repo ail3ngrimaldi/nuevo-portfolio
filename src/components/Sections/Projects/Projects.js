@@ -21,7 +21,9 @@ function Projects() {
                 />
                 <ProjectCard img={images.pomodoro}
                              title="Pomodoro timer"
-                             description="Design created with Figma."/>
+                             description="Design created with Figma."
+                             link="https://www.figma.com/file/UEWtzV3DeffnyvNmYFVFav?node-id=2%3A4"
+                />
                 <ProjectCard img={images.notavailable}
                              title="Kindergarten"
                              description="Landing page for a kindergarten, freelance project."
