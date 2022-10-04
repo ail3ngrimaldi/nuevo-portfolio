@@ -34,7 +34,7 @@ function Projects() {
                 <ProjectCard img={images.portfolio}
                              title="My first portfolio"
                              description="My first portfolio."
-                             link="https://ailengrimaldi.com"
+                             link="https://oldportfolio-silk.vercel.app/"
                 />
             </div>
         </div>
