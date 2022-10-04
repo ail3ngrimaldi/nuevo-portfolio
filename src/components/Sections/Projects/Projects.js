@@ -18,6 +18,7 @@ function Projects() {
                 <ProjectCard img={images.tachito}
                              title="Tachito compost"
                              description="Project with the aim of generating a positive impact on the environment, developed with React Native."
+                             link="https://www.instagram.com/tachito.compost/"
                 />
                 <ProjectCard img={images.pomodoro}
                              title="Pomodoro timer"
