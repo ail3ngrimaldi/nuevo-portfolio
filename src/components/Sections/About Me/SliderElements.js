@@ -19,7 +19,6 @@ export const TextContainer = styled.div`
 export const NavButton = styled.button`
     width: 35px;
     height: 35px;
-    outline: none;
     border: none;
     background: none;
     cursor: pointer;
@@ -33,12 +32,14 @@ export const NavButton = styled.button`
     transform: translate(0, -200%);
     ${(props) => props.right === true ? css` right: 5%` : css` left: 5%` }
 `
+//    outline: var(--light-color) solid 2px;
+// set outline property
 
 export const DotContainer = styled.div`
     display: flex;
     gap: 1rem;
     position: absolute;
-    top: 60%; 
+    top: 65%; 
     left: 50%;
     transform: translate(-50%, -50%);
 `
