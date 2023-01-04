@@ -70,7 +70,7 @@ export default function ContactForm () {
                         className='input__contactform' 
                         name='subject' 
                         id='subject'
-                        required minLength='10' maxLength='400'
+                        required minLength='2' maxLength='400'
                         />
                 <label htmlFor='message'>Content:</label>
                     <textarea 
