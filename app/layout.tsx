@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${quicksand.variable} ${abrilFatface.variable}`} suppressHydrationWarning>
       <body className="font-sans antialiased">
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <Suspense fallback={null}>
             {children}
             <Toaster />
