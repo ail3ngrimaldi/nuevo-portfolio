@@ -33,15 +33,21 @@ export function HeroSection() {
               <ArrowDown className="ml-2 h-5 w-5" />
             </Button>
             <div className="flex gap-4">
-              <Button variant="outline" size="icon" className="h-12 w-12 bg-transparent">
-                <Github className="h-6 w-6" />
-              </Button>
-              <Button variant="outline" size="icon" className="h-12 w-12 bg-transparent">
-                <Linkedin className="h-6 w-6" />
-              </Button>
-              <Button variant="outline" size="icon" className="h-12 w-12 bg-transparent">
-                <Mail className="h-6 w-6" />
-              </Button>
+              <a href="https://github.com/ail3ngrimaldi" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" size="icon" className="h-12 w-12 bg-transparent">
+                  <Github className="h-6 w-6" />
+                </Button>
+              </a>
+              <a href="https://linkedin.com/in/ailenrociog" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" size="icon" className="h-12 w-12 bg-transparent">
+                  <Linkedin className="h-6 w-6" />
+                </Button>
+              </a>
+              <a href="mailto:ailenrgrimaldi@gmail.com">
+                <Button variant="outline" size="icon" className="h-12 w-12 bg-transparent">
+                  <Mail className="h-6 w-6" />
+                </Button>
+              </a>
             </div>
           </div>
         </div>
