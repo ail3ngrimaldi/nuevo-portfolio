@@ -48,7 +48,7 @@ export function AboutSection() {
           <div className="flex justify-center">
             <div className="relative">
               <div className="w-80 h-80 rounded-2xl overflow-hidden border-4 border-primary/20">
-                <img src="/professional-developer-portrait.png" alt="Ailén Grimaldi" className="w-full h-full object-cover" />
+                <img src="/professional-portrait.jpeg" alt="Ailén Grimaldi" className="w-full h-full object-cover" />
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary rounded-full flex items-center justify-center">
                 <span className="text-2xl">👋</span>
