@@ -34,17 +34,17 @@ export function HeroSection() {
             </Button>
             <div className="flex gap-4">
               <a href="https://github.com/ail3ngrimaldi" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" size="icon" className="h-12 w-12 bg-transparent">
+                <Button variant="outline" size="icon" className="h-12 w-12 bg-transparent hover:!bg-primary hover:!text-primary-foreground">
                   <Github className="h-6 w-6" />
                 </Button>
               </a>
               <a href="https://linkedin.com/in/ailenrociog" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" size="icon" className="h-12 w-12 bg-transparent">
+                <Button variant="outline" size="icon" className="h-12 w-12 bg-transparent hover:!bg-primary hover:!text-primary-foreground">
                   <Linkedin className="h-6 w-6" />
                 </Button>
               </a>
               <a href="mailto:ailenrgrimaldi@gmail.com">
-                <Button variant="outline" size="icon" className="h-12 w-12 bg-transparent">
+                <Button variant="outline" size="icon" className="h-12 w-12 bg-transparent hover:!bg-primary hover:!text-primary-foreground">
                   <Mail className="h-6 w-6" />
                 </Button>
               </a>
