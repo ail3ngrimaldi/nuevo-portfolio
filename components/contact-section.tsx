@@ -3,6 +3,7 @@
 import type React from "react"
 
 import { useState } from "react"
+import emailjs from '@emailjs/browser'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -19,16 +20,44 @@ export function ContactSection() {
     e.preventDefault()
     setIsSubmitting(true)
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000))
+    try {
+      // Get environment variables
+      const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+      const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID
+      const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
 
-    toast({
-      title: "Mensaje enviado",
-      description: "Gracias por contactarme. Te responderé pronto.",
-    })
+      if (!publicKey || !serviceId || !templateId) {
+        throw new Error('EmailJS configuration missing')
+      }
 
-    setIsSubmitting(false)
-    ;(e.target as HTMLFormElement).reset()
+      // Initialize EmailJS with public key
+      emailjs.init(publicKey)
+
+      // Send email using form data
+      await emailjs.sendForm(
+        serviceId,
+        templateId,
+        e.target as HTMLFormElement
+      )
+
+      toast({
+        title: "¡Mensaje enviado!",
+        description: "Gracias por contactarme. Te responderé pronto.",
+      })
+
+      // Reset form
+      ;(e.target as HTMLFormElement).reset()
+      
+    } catch (error) {
+      console.error('EmailJS error:', error)
+      toast({
+        title: "Error al enviar",
+        description: "Hubo un problema al enviar tu mensaje. Por favor, intenta de nuevo.",
+        variant: "destructive"
+      })
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -96,12 +125,12 @@ export function ContactSection() {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
-                    <Label htmlFor="name">Nombre</Label>
-                    <Input id="name" name="name" required />
+                    <Label htmlFor="from_name">Nombre</Label>
+                    <Input id="from_name" name="from_name" required />
                   </div>
                   <div className="space-y-2">
-                    <Label htmlFor="email">Email</Label>
-                    <Input id="email" name="email" type="email" required />
+                    <Label htmlFor="from_email">Email</Label>
+                    <Input id="from_email" name="from_email" type="email" required />
                   </div>
                 </div>
 
