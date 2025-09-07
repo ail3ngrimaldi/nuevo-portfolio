@@ -1,7 +1,6 @@
-@import "tailwindcss";
-@import "tw-animate-css";
-
-@custom-variant dark (&:is(.dark *));
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   /* Variables esenciales para modo light */
@@ -9,19 +8,19 @@
   --foreground: #111827;
   --card: #f9fafb;
   --card-foreground: #111827;
-  --primary: #c084fc;
-  --primary-foreground: #ffffff;
+  --primary: 277 87% 75%;
+  --primary-foreground: 0 0% 100%;
   --secondary: #f3f4f6;
   --secondary-foreground: #111827;
   --muted: #f3f4f6;
   --muted-foreground: #6b7280;
-  --accent: #c084fc;
-  --accent-foreground: #ffffff;
+  --accent: 277 87% 75%;
+  --accent-foreground: 0 0% 100%;
   --destructive: #ef4444;
   --destructive-foreground: #ffffff;
   --border: #e5e7eb;
   --input: #f9fafb;
-  --ring: #c084fc;
+  --ring: 277 87% 75%;
   --radius: 0.5rem;
 }
 
@@ -31,56 +30,33 @@
   --foreground: #faf5ff;
   --card: #1f2937;
   --card-foreground: #faf5ff;
-  --primary: #c084fc;
-  --primary-foreground: #111827;
+  --primary: 277 87% 75%;
+  --primary-foreground: 221 39% 11%;
   --secondary: #bda9d4;
   --secondary-foreground: #111827;
   --muted: #374151;
   --muted-foreground: #9ca3af;
-  --accent: #c084fc;
-  --accent-foreground: #111827;
+  --accent: 277 87% 75%;
+  --accent-foreground: 221 39% 11%;
   --destructive: #ef4444;
   --destructive-foreground: #faf5ff;
   --border: #374151;
   --input: #1f2937;
-  --ring: #c084fc;
+  --ring: 277 87% 75%;
 }
 
-@theme inline {
-  /* Fuentes */
-  --font-sans: var(--font-quicksand);
-  --font-serif: var(--font-abril-fatface);
-  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
-
-  /* Variables de color esenciales */
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-card: var(--card);
-  --color-card-foreground: var(--card-foreground);
-  --color-primary: var(--primary);
-  --color-primary-foreground: var(--primary-foreground);
-  --color-secondary: var(--secondary);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-muted: var(--muted);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-accent: var(--accent);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-destructive: var(--destructive);
-  --color-destructive-foreground: var(--destructive-foreground);
-  --color-border: var(--border);
-  --color-input: var(--input);
-  --color-ring: var(--ring);
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
-  --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
-}
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-    /* Agregando reset básico como en el CSS original */
+  *,
+  *::before,
+  *::after {
     box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: theme('colors.border');
+  }
+
+  * {
     margin: 0;
     padding: 0;
     /* Transición suave para cambios de tema */
@@ -94,9 +70,7 @@
   }
 
   body {
-    @apply bg-background text-foreground;
-    /* Aplicando fuente principal Quicksand como en el original */
-    font-family: var(--font-quicksand), sans-serif;
+    @apply bg-background text-foreground font-sans;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
     /* Transición específica para el body */
