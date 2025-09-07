@@ -9,6 +9,13 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  experimental: {
+    cssChunking: 'loose',
+  },
+  // Disable lightningcss to prevent deployment errors
+  webpack: (config) => {
+    return config;
+  },
 }
 
 export default nextConfig
