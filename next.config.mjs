@@ -12,6 +12,10 @@ const nextConfig = {
   experimental: {
     cssChunking: 'loose',
   },
+  // Configure output for Vercel deployment
+  output: 'export',
+  distDir: 'out',
+  trailingSlash: true,
   // Disable lightningcss to prevent deployment errors
   webpack: (config) => {
     return config;
