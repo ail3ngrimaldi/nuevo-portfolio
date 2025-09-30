@@ -39,12 +39,12 @@ export function ProjectsSection() {
       githubUrl: "linktr.ee/beaconn",
     },
     {
-      title: "IA-LO",
-      description: "Legal Bot that uses customized documents with specific laws.",
-      image: "/weather-dashboard-interface.png",
-      technologies: ["Angular.js", "Typescript", "Tailwind", "Web3", "Langchain"],
-      liveUrl: "#",
-      githubUrl: "#",
+      title: "Impact Wallet",
+      description: "Application to test mint, approve and transfer actions masked with an environmental purpose",
+      image: "/impact.png",
+      technologies: ["Next.js", "Typescript", "Vite", "Vitest", "Wagmi", "MaterialUI", "viem"],
+      liveUrl: "https://impact-wallet-demo.vercel.app/",
+      githubUrl: "https://github.com/ail3ngrimaldi/wonderland-fe",
     },
     {
       title: "ZK Web Component - Midnight Collaboration",
