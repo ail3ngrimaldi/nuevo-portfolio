@@ -23,7 +23,7 @@ export function HeroSection() {
               Hola, soy <span className="text-primary">Ailén Grimaldi</span>
             </h1>
             <p className="text-xl sm:text-2xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-              Desarrolladora Full Stack apasionada por crear experiencias digitales excepcionales
+              Desarrolladora Frontend Blockchain - Ethereum and Polkadot oriented :)
             </p>
           </div>
 

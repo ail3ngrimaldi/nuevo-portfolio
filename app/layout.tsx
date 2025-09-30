@@ -23,7 +23,7 @@ const abrilFatface = Abril_Fatface({
 
 export const metadata: Metadata = {
   title: "Ailén Grimaldi - Portfolio",
-  description: "Desarrolladora Full Stack especializada en React, Next.js y tecnologías modernas",
+  description: "Desarrolladora Frontend y Blockchain especializada en React, Next.js y tecnologías modernas",
   generator: "v0.app",
 }
 

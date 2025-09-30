@@ -23,8 +23,7 @@ export function AboutSection() {
                   no he parado de aprender.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Me especializo en React, Next.js, Node.js y bases de datos modernas. Disfruto trabajando en equipos
-                  colaborativos y siempre busco las mejores prácticas para entregar código limpio y mantenible.
+                  Me especializo en React, Next.js, Node.js y bases de datos modernas (blockchain). Disfruto trabajando en equipos colaborativos y siempre busco las mejores prácticas para entregar código limpio y mantenible. Fan del feedback, del bueno y del malo mucho más.
                 </p>
               </CardContent>
             </Card>
@@ -34,13 +33,13 @@ export function AboutSection() {
                 Trabajo en equipo
               </Badge>
               <Badge variant="secondary" className="text-sm py-1 px-3">
-                Resolución de problemas
-              </Badge>
-              <Badge variant="secondary" className="text-sm py-1 px-3">
                 Aprendizaje continuo
               </Badge>
               <Badge variant="secondary" className="text-sm py-1 px-3">
                 Comunicación efectiva
+              </Badge>
+              <Badge variant="secondary" className="text-sm py-1 px-3">
+                Amante de la organización
               </Badge>
             </div>
           </div>
