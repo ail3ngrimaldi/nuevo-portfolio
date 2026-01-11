@@ -6,7 +6,7 @@ export function AboutSection() {
     <section id="about" className="py-20 bg-muted/30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-black text-balance mb-4">Sobre mí</h2>
+          <h2 className="text-3xl sm:text-4xl font-black text-balance mb-4">¿Cómo puedo ayudarte?</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
             Conoce más sobre mi experiencia y pasión por el desarrollo
           </p>
@@ -18,13 +18,13 @@ export function AboutSection() {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold mb-4">Mi historia</h3>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Soy una desarrolladora Full Stack con más de 3 años de experiencia creando aplicaciones web modernas y
-                  escalables. Mi pasión por la tecnología comenzó durante mis estudios universitarios y desde entonces
-                  no he parado de aprender.
+                 - Creación de páginas web profesionales
+                 - Automatizaciones que ahorran horas de trabajo manual
+                 - Presencia digital que atrae más clientes
+                 - Soluciones a medida según el presupuesto
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Me especializo en React, Next.js, Node.js y bases de datos modernas (blockchain). Disfruto trabajando en equipos colaborativos y siempre busco las mejores prácticas para entregar código limpio y mantenible. Fan del feedback, del bueno y del malo mucho más.
-                </p>
+H                </p>
               </CardContent>
             </Card>
 
